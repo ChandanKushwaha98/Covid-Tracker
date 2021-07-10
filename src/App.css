@@ -1,0 +1,50 @@
+.CovidTrackerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.covidTrackerHeading {
+    /* height: 10vh; */
+}
+
+.mainContent {
+    /* height: 80vh; */
+    width: 100%;
+}
+
+.leftContainer {
+    float: left
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 50%;
+}
+
+.flag_select {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.countryFlag {
+    border-radius: 25px;
+    width: 400px;
+    height: 200px;
+}
+
+.trackerCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 72%;
+}
+
+.trackerCardsContainer>* {
+    flex: 1 1 200px;
+}
